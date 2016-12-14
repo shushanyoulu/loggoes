@@ -1,0 +1,30 @@
+#注：配置文件编码使用utf-8,所以不建议用windows记事本打开，会导致配置文件不能读。
+#功能配置选择
+[director]
+useKafkaStream   = 1                          #使用kafka数据流接收文件（0：关闭此功能|1：开启此功能），目前没有生效
+[server]
+zookeeperaddr = "192.168.232.128:2121"        #终端通过zookeeper 访问kafka  默认为：本机127.0.0.1:2181
+esaddr        = "http://192.168.232.128:9200" #es 地址  默认为本机：http://127.0.0.1:9200
+cpus          = 2            #配置程序可用cpu核心数；如果主机还有其他程序在运行，请设置合理的参数，如果设置为0，则默认使用所有核心。
+userStatisticTTL = 24        #单位：小时，定期清理缓存中的僵尸用户（由于日志丢失，造成的僵尸数据，目前没有生效）
+onlineUserUpdate = 2         #定期更新es 上的数据初始时为2分钟 （目前没生效）
+offlineInterval = 300        #判断用户掉线，时间间隔设置；
+# 并发相关参数设置 
+[concurrency]
+tcount = 1 #并发数量，如果配置允许可以适当提高并发数(目前设置2或以上会出现崩溃)。
+putToEsBuff = 1000 #批量提交数据致es 
+#kafka 信息配置,注：不同的节点要配置不同的consumerGroup值
+[topics]              
+    [topics.ptt01]
+        kafkaTopics    = "ptt01"     #topic 名称 注：只能使用小写+数字,不能使用大写；具体要求可以看es index说明
+        consumerGroup  = "consumer" #消费组名称
+    [topics.ptt02]
+        kafkaTopics    = "ptt02"     #topic 名称
+        consumerGroup  = "consumer" #消费组名称 
+    [topics.ptt03]
+        kafkaTopics    = "ptt03"     #topic 名称
+        consumerGroup  = "consumer" #消费组名称
+[logConfig]
+logPath = "../log/goes.log"  #日志问题存储路径 
+[excludeUID]  ## 排除一下uid,这些uid不做数据统计分析；如：测试账号，监控账号。在双引号中填写uid,用;隔开 
+uids = "1000215;1000216"

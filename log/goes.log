@@ -1,0 +1,417 @@
+[GOES] 2016/12/01 17:48:57 client.go:107: Initializing new client
+[GOES] 2016/12/01 17:48:57 client.go:585: client/metadata fetching metadata for all topics from broker 192.168.232.128:9092
+[GOES] 2016/12/01 17:48:57 broker.go:141: Connected to br[GOES] 2016/12/01 17:48:57 dealNode.go:112: true <nil>
+[GOES] 2016/12/01 18:30:22 dealNode.go:129: Processed 23055 events.
+[GOES] 2016/12/01 18:30:22 dealNode.go:130: map[ptt02:map[0:138208] ptt01:map[0:366942] ptt03:map[0:5942]]
+[GOES] 2016/12/01 18:30:22 goes.go:53: over
+37: [consumer/be9dac75fad5] Consumer instance registered (DESKTOP-B9Q2EA9:81c1637c-f73f-46fc-9681-be9dac75fad5).
+[GOES] 2016/12/01 17:48:57 consumer_group.go:237: [consumer/be9dac75fad5] Currently registered consumers: 1
+[GOES] 2016/12/01 17:48:57 consumer_group.go:237: [consumer/be9dac75fad5] ptt03 :: Started topic consumer
+[GOES] 2016/12/01 17:48:57 consumer_group.go:237: [consumer/be9dac75fad5] ptt01 :: Started topic consumer
+[GOES] 2016/12/01 17:48:57 consumer_group.go:237: [consumer/be9dac75fad5] ptt02 :: Started topic consumer
+[GOES] 2016/12/01 17:48:57 consumer_group.go:237: [consumer/be9dac75fad5] ptt03 :: Claiming 1 of 1 partitions
+[GOES] 2016/12/01 17:48:57 consumer_group.go:237: [consumer/be9dac75fad5] ptt02 :: Claiming 1 of 1 partitions
+[GOES] 2016/12/01 17:48:57 consumer_group.go:237: [consumer/be9dac75fad5] ptt01 :: Claiming 1 of 1 partitions
+[GOES] 2016/12/01 17:48:57 consumer_group.go:237: [consumer/be9dac75fad5] ptt02/0 :: Partition consumer starting at offset 129079.
+[GOES] 2016/12/01 17:48:57 consumer_group.go:237: [consumer/be9dac75fad5] ptt01/0 :: Partition consumer starting at offset 358881.
+[GOES] 2016/12/01 17:48:57 broker.go:139: Connected to broker at 192.168.232.128:9092 (registered as #0)
+[GOES] 2016/12/01 17:48:57 consumer_group.go:237: [consumer/be9dac75fad5] ptt03/0 :: Partition consumer starting at offset 80.
+[GOES] 2016/12/01 17:48:57 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 17:48:57 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 17:48:57 consumer.go:628: consumer/broker/0 added subscription to ptt03/0
+[GOES] 2016/12/01 17:48:57 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 17:48:58 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 17:48:58 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 17:49:11 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 17:49:11 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 17:49:24 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 17:49:24 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 17:49:37 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 17:49:37 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 17:49:50 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 17:49:50 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 17:50:04 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 17:50:04 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 17:50:16 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 17:50:17 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 17:50:20 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 17:50:20 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 17:50:20 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 17:50:43 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 17:50:43 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 17:50:46 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 17:50:46 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 17:51:11 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 17:51:11 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 17:51:13 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 17:51:13 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 17:51:38 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 17:51:39 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 17:51:39 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 17:51:39 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 17:52:04 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 17:52:04 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 17:52:05 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 17:52:05 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 17:52:31 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 17:52:31 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 17:52:32 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 17:52:32 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 17:52:57 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 17:52:57 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 17:52:59 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 17:52:59 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 17:53:22 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 17:53:22 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 17:53:26 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 17:53:26 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 17:53:47 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 17:53:47 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 17:53:52 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 17:53:52 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 17:54:12 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 17:54:12 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 17:54:19 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 17:54:19 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 17:54:36 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 17:54:37 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 17:54:45 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 17:54:45 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 17:55:02 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 17:55:02 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 17:55:11 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 17:55:11 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 17:55:29 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 17:55:29 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 17:55:39 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 17:55:39 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 17:55:53 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 17:55:54 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 17:56:03 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 17:56:04 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 17:56:18 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 17:56:18 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 17:56:29 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 17:56:29 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 17:56:45 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 17:56:45 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 17:56:55 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 17:56:56 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 17:57:10 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 17:57:10 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 17:57:24 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 17:57:24 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 17:57:36 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 17:57:36 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 17:57:50 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 17:57:50 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 17:57:51 consumer.go:654: consumer/broker/0 abandoned subscription to ptt03/0 because consuming was taking too long
+[GOES] 2016/12/01 17:58:02 consumer.go:628: consumer/broker/0 added subscription to ptt03/0
+[GOES] 2016/12/01 17:58:02 consumer.go:654: consumer/broker/0 abandoned subscription to ptt03/0 because consuming was taking too long
+[GOES] 2016/12/01 17:58:07 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 17:58:07 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 17:58:33 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 17:58:34 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 17:58:40 consumer.go:628: consumer/broker/0 added subscription to ptt03/0
+[GOES] 2016/12/01 17:58:41 consumer.go:654: consumer/broker/0 abandoned subscription to ptt03/0 because consuming was taking too long
+[GOES] 2016/12/01 17:58:46 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 17:58:46 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 17:58:57 client.go:585: client/metadata fetching metadata for all topics from broker 192.168.232.128:9092
+[GOES] 2016/12/01 17:58:57 client.go:604: client/metadata got error from broker while fetching metadata: EOF
+[GOES] 2016/12/01 17:58:57 broker.go:177: Closed connection to broker 192.168.232.128:9092
+[GOES] 2016/12/01 17:58:57 client.go:585: client/metadata fetching metadata for all topics from broker 192.168.232.128:9092
+[GOES] 2016/12/01 17:59:14 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 17:59:14 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 17:59:20 consumer.go:628: consumer/broker/0 added subscription to ptt03/0
+[GOES] 2016/12/01 17:59:20 consumer.go:654: consumer/broker/0 abandoned subscription to ptt03/0 because consuming was taking too long
+[GOES] 2016/12/01 17:59:27 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 17:59:27 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 17:59:54 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 17:59:54 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 17:59:58 consumer.go:628: consumer/broker/0 added subscription to ptt03/0
+[GOES] 2016/12/01 17:59:58 consumer.go:654: consumer/broker/0 abandoned subscription to ptt03/0 because consuming was taking too long
+[GOES] 2016/12/01 18:00:07 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 18:00:07 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 18:00:35 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 18:00:35 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 18:00:38 consumer.go:628: consumer/broker/0 added subscription to ptt03/0
+[GOES] 2016/12/01 18:00:38 consumer.go:654: consumer/broker/0 abandoned subscription to ptt03/0 because consuming was taking too long
+[GOES] 2016/12/01 18:00:46 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 18:00:46 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 18:01:14 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 18:01:14 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 18:01:17 consumer.go:628: consumer/broker/0 added subscription to ptt03/0
+[GOES] 2016/12/01 18:01:17 consumer.go:654: consumer/broker/0 abandoned subscription to ptt03/0 because consuming was taking too long
+[GOES] 2016/12/01 18:01:23 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 18:01:23 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 18:01:53 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 18:01:53 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 18:01:55 consumer.go:628: consumer/broker/0 added subscription to ptt03/0
+[GOES] 2016/12/01 18:01:55 consumer.go:654: consumer/broker/0 abandoned subscription to ptt03/0 because consuming was taking too long
+[GOES] 2016/12/01 18:02:01 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 18:02:01 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 18:02:32 consumer.go:628: consumer/broker/0 added subscription to ptt03/0
+[GOES] 2016/12/01 18:02:33 consumer.go:654: consumer/broker/0 abandoned subscription to ptt03/0 because consuming was taking too long
+[GOES] 2016/12/01 18:02:33 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 18:02:34 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 18:02:37 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 18:02:37 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 18:03:09 consumer.go:628: consumer/broker/0 added subscription to ptt03/0
+[GOES] 2016/12/01 18:03:09 consumer.go:654: consumer/broker/0 abandoned subscription to ptt03/0 because consuming was taking too long
+[GOES] 2016/12/01 18:03:12 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 18:03:12 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 18:03:15 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 18:03:15 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 18:03:47 consumer.go:628: consumer/broker/0 added subscription to ptt03/0
+[GOES] 2016/12/01 18:03:47 consumer.go:654: consumer/broker/0 abandoned subscription to ptt03/0 because consuming was taking too long
+[GOES] 2016/12/01 18:03:51 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 18:03:51 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 18:03:52 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 18:03:52 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 18:04:23 consumer.go:628: consumer/broker/0 added subscription to ptt03/0
+[GOES] 2016/12/01 18:04:23 consumer.go:654: consumer/broker/0 abandoned subscription to ptt03/0 because consuming was taking too long
+[GOES] 2016/12/01 18:04:29 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 18:04:30 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 18:04:31 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 18:04:31 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 18:05:01 consumer.go:628: consumer/broker/0 added subscription to ptt03/0
+[GOES] 2016/12/01 18:05:01 consumer.go:654: consumer/broker/0 abandoned subscription to ptt03/0 because consuming was taking too long
+[GOES] 2016/12/01 18:05:07 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 18:05:07 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 18:05:08 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 18:05:08 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 18:05:41 consumer.go:628: consumer/broker/0 added subscription to ptt03/0
+[GOES] 2016/12/01 18:05:42 consumer.go:654: consumer/broker/0 abandoned subscription to ptt03/0 because consuming was taking too long
+[GOES] 2016/12/01 18:05:45 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 18:05:45 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 18:05:48 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 18:05:48 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 18:06:19 consumer.go:628: consumer/broker/0 added subscription to ptt03/0
+[GOES] 2016/12/01 18:06:19 consumer.go:654: consumer/broker/0 abandoned subscription to ptt03/0 because consuming was taking too long
+[GOES] 2016/12/01 18:06:23 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 18:06:23 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 18:06:28 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 18:06:28 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 18:06:56 consumer.go:628: consumer/broker/0 added subscription to ptt03/0
+[GOES] 2016/12/01 18:06:56 consumer.go:654: consumer/broker/0 abandoned subscription to ptt03/0 because consuming was taking too long
+[GOES] 2016/12/01 18:07:00 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 18:07:01 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 18:07:06 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 18:07:06 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 18:07:35 consumer.go:628: consumer/broker/0 added subscription to ptt03/0
+[GOES] 2016/12/01 18:07:35 consumer.go:654: consumer/broker/0 abandoned subscription to ptt03/0 because consuming was taking too long
+[GOES] 2016/12/01 18:07:38 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 18:07:38 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 18:07:44 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 18:07:45 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 18:08:12 consumer.go:628: consumer/broker/0 added subscription to ptt03/0
+[GOES] 2016/12/01 18:08:12 consumer.go:654: consumer/broker/0 abandoned subscription to ptt03/0 because consuming was taking too long
+[GOES] 2016/12/01 18:08:16 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 18:08:16 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 18:08:23 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 18:08:23 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 18:08:51 consumer.go:628: consumer/broker/0 added subscription to ptt03/0
+[GOES] 2016/12/01 18:08:51 consumer.go:654: consumer/broker/0 abandoned subscription to ptt03/0 because consuming was taking too long
+[GOES] 2016/12/01 18:08:55 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 18:08:55 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 18:08:57 client.go:585: client/metadata fetching metadata for all topics from broker 192.168.232.128:9092
+[GOES] 2016/12/01 18:09:02 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 18:09:03 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 18:09:27 consumer.go:628: consumer/broker/0 added subscription to ptt03/0
+[GOES] 2016/12/01 18:09:27 consumer.go:654: consumer/broker/0 abandoned subscription to ptt03/0 because consuming was taking too long
+[GOES] 2016/12/01 18:09:32 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 18:09:32 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 18:09:42 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 18:09:42 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 18:10:05 consumer.go:628: consumer/broker/0 added subscription to ptt03/0
+[GOES] 2016/12/01 18:10:05 consumer.go:654: consumer/broker/0 abandoned subscription to ptt03/0 because consuming was taking too long
+[GOES] 2016/12/01 18:10:11 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 18:10:12 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 18:10:21 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 18:10:21 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 18:10:44 consumer.go:628: consumer/broker/0 added subscription to ptt03/0
+[GOES] 2016/12/01 18:10:45 consumer.go:654: consumer/broker/0 abandoned subscription to ptt03/0 because consuming was taking too long
+[GOES] 2016/12/01 18:10:50 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 18:10:50 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 18:10:54 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 18:10:55 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 18:11:23 consumer.go:628: consumer/broker/0 added subscription to ptt03/0
+[GOES] 2016/12/01 18:11:23 consumer.go:654: consumer/broker/0 abandoned subscription to ptt03/0 because consuming was taking too long
+[GOES] 2016/12/01 18:11:28 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 18:11:28 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 18:11:31 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 18:11:31 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 18:12:00 consumer.go:628: consumer/broker/0 added subscription to ptt03/0
+[GOES] 2016/12/01 18:12:00 consumer.go:654: consumer/broker/0 abandoned subscription to ptt03/0 because consuming was taking too long
+[GOES] 2016/12/01 18:12:06 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 18:12:06 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 18:12:08 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 18:12:09 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 18:12:37 consumer.go:628: consumer/broker/0 added subscription to ptt03/0
+[GOES] 2016/12/01 18:12:37 consumer.go:654: consumer/broker/0 abandoned subscription to ptt03/0 because consuming was taking too long
+[GOES] 2016/12/01 18:12:44 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 18:12:44 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 18:12:47 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 18:12:47 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 18:13:14 consumer.go:628: consumer/broker/0 added subscription to ptt03/0
+[GOES] 2016/12/01 18:13:14 consumer.go:654: consumer/broker/0 abandoned subscription to ptt03/0 because consuming was taking too long
+[GOES] 2016/12/01 18:13:24 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 18:13:24 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 18:13:24 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 18:13:24 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 18:13:51 consumer.go:628: consumer/broker/0 added subscription to ptt03/0
+[GOES] 2016/12/01 18:13:51 consumer.go:654: consumer/broker/0 abandoned subscription to ptt03/0 because consuming was taking too long
+[GOES] 2016/12/01 18:14:02 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 18:14:02 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 18:14:02 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 18:14:02 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 18:14:29 consumer.go:628: consumer/broker/0 added subscription to ptt03/0
+[GOES] 2016/12/01 18:14:29 consumer.go:654: consumer/broker/0 abandoned subscription to ptt03/0 because consuming was taking too long
+[GOES] 2016/12/01 18:14:40 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 18:14:40 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 18:14:40 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 18:14:41 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 18:15:06 consumer.go:628: consumer/broker/0 added subscription to ptt03/0
+[GOES] 2016/12/01 18:15:06 consumer.go:654: consumer/broker/0 abandoned subscription to ptt03/0 because consuming was taking too long
+[GOES] 2016/12/01 18:15:17 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 18:15:17 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 18:15:19 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 18:15:19 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 18:15:43 consumer.go:628: consumer/broker/0 added subscription to ptt03/0
+[GOES] 2016/12/01 18:15:43 consumer.go:654: consumer/broker/0 abandoned subscription to ptt03/0 because consuming was taking too long
+[GOES] 2016/12/01 18:15:51 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 18:15:51 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 18:16:01 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 18:16:01 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 18:16:22 consumer.go:628: consumer/broker/0 added subscription to ptt03/0
+[GOES] 2016/12/01 18:16:22 consumer.go:654: consumer/broker/0 abandoned subscription to ptt03/0 because consuming was taking too long
+[GOES] 2016/12/01 18:16:27 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 18:16:27 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 18:16:37 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 18:16:37 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 18:17:00 consumer.go:628: consumer/broker/0 added subscription to ptt03/0
+[GOES] 2016/12/01 18:17:00 consumer.go:654: consumer/broker/0 abandoned subscription to ptt03/0 because consuming was taking too long
+[GOES] 2016/12/01 18:17:01 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 18:17:01 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 18:17:15 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 18:17:16 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 18:17:37 consumer.go:628: consumer/broker/0 added subscription to ptt03/0
+[GOES] 2016/12/01 18:17:37 consumer.go:654: consumer/broker/0 abandoned subscription to ptt03/0 because consuming was taking too long
+[GOES] 2016/12/01 18:17:39 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 18:17:39 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 18:17:51 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 18:17:51 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 18:18:15 consumer.go:628: consumer/broker/0 added subscription to ptt03/0
+[GOES] 2016/12/01 18:18:15 consumer.go:654: consumer/broker/0 abandoned subscription to ptt03/0 because consuming was taking too long
+[GOES] 2016/12/01 18:18:15 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 18:18:15 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 18:18:30 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 18:18:30 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 18:18:52 consumer.go:628: consumer/broker/0 added subscription to ptt03/0
+[GOES] 2016/12/01 18:18:52 consumer.go:654: consumer/broker/0 abandoned subscription to ptt03/0 because consuming was taking too long
+[GOES] 2016/12/01 18:18:54 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 18:18:54 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 18:18:57 client.go:585: client/metadata fetching metadata for all topics from broker 192.168.232.128:9092
+[GOES] 2016/12/01 18:19:09 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 18:19:09 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 18:19:29 consumer.go:628: consumer/broker/0 added subscription to ptt03/0
+[GOES] 2016/12/01 18:19:30 consumer.go:654: consumer/broker/0 abandoned subscription to ptt03/0 because consuming was taking too long
+[GOES] 2016/12/01 18:19:32 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 18:19:32 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 18:19:46 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 18:19:46 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 18:20:08 consumer.go:628: consumer/broker/0 added subscription to ptt03/0
+[GOES] 2016/12/01 18:20:09 consumer.go:654: consumer/broker/0 abandoned subscription to ptt03/0 because consuming was taking too long
+[GOES] 2016/12/01 18:20:09 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 18:20:09 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 18:20:25 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 18:20:26 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 18:20:46 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 18:20:46 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 18:20:47 consumer.go:628: consumer/broker/0 added subscription to ptt03/0
+[GOES] 2016/12/01 18:20:47 consumer.go:654: consumer/broker/0 abandoned subscription to ptt03/0 because consuming was taking too long
+[GOES] 2016/12/01 18:21:03 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 18:21:03 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 18:21:25 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 18:21:25 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 18:21:26 consumer.go:628: consumer/broker/0 added subscription to ptt03/0
+[GOES] 2016/12/01 18:21:26 consumer.go:654: consumer/broker/0 abandoned subscription to ptt03/0 because consuming was taking too long
+[GOES] 2016/12/01 18:21:40 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 18:21:41 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 18:22:03 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 18:22:03 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 18:22:04 consumer.go:628: consumer/broker/0 added subscription to ptt03/0
+[GOES] 2016/12/01 18:22:04 consumer.go:654: consumer/broker/0 abandoned subscription to ptt03/0 because consuming was taking too long
+[GOES] 2016/12/01 18:22:19 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 18:22:19 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 18:22:39 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 18:22:39 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 18:22:45 consumer.go:628: consumer/broker/0 added subscription to ptt03/0
+[GOES] 2016/12/01 18:22:45 consumer.go:654: consumer/broker/0 abandoned subscription to ptt03/0 because consuming was taking too long
+[GOES] 2016/12/01 18:23:03 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 18:23:03 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 18:23:33 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 18:23:33 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 18:23:38 consumer.go:628: consumer/broker/0 added subscription to ptt03/0
+[GOES] 2016/12/01 18:23:38 consumer.go:654: consumer/broker/0 abandoned subscription to ptt03/0 because consuming was taking too long
+[GOES] 2016/12/01 18:23:58 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 18:23:58 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 18:24:29 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 18:24:29 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 18:24:33 consumer.go:628: consumer/broker/0 added subscription to ptt03/0
+[GOES] 2016/12/01 18:24:34 consumer.go:654: consumer/broker/0 abandoned subscription to ptt03/0 because consuming was taking too long
+[GOES] 2016/12/01 18:24:56 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 18:24:56 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 18:25:23 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 18:25:23 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 18:25:32 consumer.go:628: consumer/broker/0 added subscription to ptt03/0
+[GOES] 2016/12/01 18:25:32 consumer.go:654: consumer/broker/0 abandoned subscription to ptt03/0 because consuming was taking too long
+[GOES] 2016/12/01 18:25:49 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 18:25:49 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 18:26:19 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 18:26:19 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 18:26:27 consumer.go:628: consumer/broker/0 added subscription to ptt03/0
+[GOES] 2016/12/01 18:26:27 consumer.go:654: consumer/broker/0 abandoned subscription to ptt03/0 because consuming was taking too long
+[GOES] 2016/12/01 18:26:45 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 18:26:45 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 18:27:15 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 18:27:15 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 18:27:25 consumer.go:628: consumer/broker/0 added subscription to ptt03/0
+[GOES] 2016/12/01 18:27:25 consumer.go:654: consumer/broker/0 abandoned subscription to ptt03/0 because consuming was taking too long
+[GOES] 2016/12/01 18:27:40 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 18:27:40 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 18:28:09 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 18:28:09 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 18:28:20 consumer.go:628: consumer/broker/0 added subscription to ptt03/0
+[GOES] 2016/12/01 18:28:20 consumer.go:654: consumer/broker/0 abandoned subscription to ptt03/0 because consuming was taking too long
+[GOES] 2016/12/01 18:28:35 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 18:28:35 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 18:28:57 client.go:585: client/metadata fetching metadata for all topics from broker 192.168.232.128:9092
+[GOES] 2016/12/01 18:29:09 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 18:29:09 consumer.go:654: consumer/broker/0 abandoned subscription to ptt02/0 because consuming was taking too long
+[GOES] 2016/12/01 18:29:20 consumer.go:628: consumer/broker/0 added subscription to ptt03/0
+[GOES] 2016/12/01 18:29:21 consumer.go:654: consumer/broker/0 abandoned subscription to ptt03/0 because consuming was taking too long
+[GOES] 2016/12/01 18:29:27 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 18:29:27 consumer.go:654: consumer/broker/0 abandoned subscription to ptt01/0 because consuming was taking too long
+[GOES] 2016/12/01 18:29:47 consumer_group.go:237: [consumer/be9dac75fad5] ptt02/0 :: Stopping partition consumer at offset 138208
+[GOES] 2016/12/01 18:29:47 consumer_group.go:237: [consumer/be9dac75fad5] ptt01/0 :: Stopping partition consumer at offset 366942
+[GOES] 2016/12/01 18:29:47 consumer_group.go:237: [consumer/be9dac75fad5] ptt02/0 :: Last processed offset: 138122. Waiting up to 20s for another 86 messages to process...
+[GOES] 2016/12/01 18:29:47 consumer_group.go:237: [consumer/be9dac75fad5] ptt01/0 :: Last processed offset: 366857. Waiting up to 20s for another 85 messages to process...
+[GOES] 2016/12/01 18:29:47 consumer_group.go:237: [consumer/be9dac75fad5] ptt03/0 :: Stopping partition consumer at offset 5942
+[GOES] 2016/12/01 18:29:47 consumer_group.go:237: [consumer/be9dac75fad5] ptt03/0 :: Last processed offset: 5856. Waiting up to 20s for another 86 messages to process...
+[GOES] 2016/12/01 18:30:07 consumer_group.go:237: [consumer/be9dac75fad5] ptt02/0 :: TIMEOUT waiting for offset 138208. Last committed offset: 138171
+[GOES] 2016/12/01 18:30:07 consumer_group.go:237: [consumer/be9dac75fad5] ptt03/0 :: TIMEOUT waiting for offset 5942. Last committed offset: 5905
+[GOES] 2016/12/01 18:30:07 consumer.go:628: consumer/broker/0 added subscription to ptt02/0
+[GOES] 2016/12/01 18:30:07 consumer_group.go:237: [consumer/be9dac75fad5] ptt01/0 :: TIMEOUT waiting for offset 366942. Last committed offset: 366905
+[GOES] 2016/12/01 18:30:07 consumer.go:634: consumer/broker/0 closed dead subscription to ptt02/0
+[GOES] 2016/12/01 18:30:07 consumer.go:628: consumer/broker/0 added subscription to ptt03/0
+[GOES] 2016/12/01 18:30:07 consumer.go:634: consumer/broker/0 closed dead subscription to ptt03/0
+[GOES] 2016/12/01 18:30:07 consumer.go:628: consumer/broker/0 added subscription to ptt01/0
+[GOES] 2016/12/01 18:30:07 consumer.go:634: consumer/broker/0 closed dead subscription to ptt01/0
+[GOES] 2016/12/01 18:30:07 consumer_group.go:237: [consumer/be9dac75fad5] ptt01 :: Stopped topic consumer
+[GOES] 2016/12/01 18:30:07 consumer_group.go:237: [consumer/be9dac75fad5] ptt02 :: Stopped topic consumer
+[GOES] 2016/12/01 18:30:07 consumer_group.go:237: [consumer/be9dac75fad5] ptt03 :: Stopped topic consumer
+[GOES] 2016/12/01 18:30:07 consumer_group.go:237: [consumer/be9dac75fad5] FAILED closing the offset manager: Not all offsets were committed before shutdown was completed!
+[GOES] 2016/12/01 18:30:07 consumer_group.go:237: [consumer/be9dac75fad5] Deregistered consumer instance DESKTOP-B9Q2EA9:81c1637c-f73f-46fc-9681-be9dac75fad5.
+[GOES] 2016/12/01 18:30:07 client.go:174: Closing Client
+[GOES] 2016/12/01 18:30:07 broker.go:177: Closed connection to broker 192.168.232.128:9092
